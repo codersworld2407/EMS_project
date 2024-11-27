@@ -1,0 +1,28 @@
+/* Ensure modal content is centered */
+.modal-dialog {
+  max-width: 500px; /* Optional: restrict modal width */
+  margin: 1.75rem auto; /* Ensure it's centered vertically and horizontally */
+}
+
+/* employee css */
+/* Custom Card Styles */
+.custom-card {
+  background-color: #9de7f0; /* Light blue */
+  border-radius: 8px;
+  border: 1px solid #0b6672; /* Border to enhance the light blue look */
+}
+
+.custom-card-header {
+  background-color: #045074; /* A bit darker blue for the header */
+  color: white;
+  font-weight: bold;
+}
+
+.custom-card-body {
+  color: #0277bd; /* Darker blue text */
+}
+
+/* Add extra padding to buttons */
+.btn-primary, .btn-warning, .btn-danger {
+  margin: 5px;
+}
